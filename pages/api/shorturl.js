@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dns = require('dns');
 const { URL } = require('url');
-const Url = require('../models/Url');
+const Url = require('../../models/Url');
 
 const app = express();
 app.use(express.json());
